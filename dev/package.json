@@ -1,0 +1,27 @@
+{
+  "author": "jordane Jouffroy <contact@jordane.net>",
+  "name": "brunch-test",
+  "description": "AngularJS, Bootstrap3, Brunch",
+  "version": "0.1.0",
+  "engines": {
+    "node": "~0.8 || ~0.9 || ~0.10"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "brunch watch --server",
+    "dev": "brunch watch",
+    "prod": "brunch build -P"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync-brunch": "~0.0.8",
+    "brunch": "~1.7.18",
+    "clean-css-brunch": "~1.7.1",
+	"css-brunch": "~1.7.0",
+	"javascript-brunch": "~1.7.1",
+	"uglify-js-brunch": "~1.7.7",
+	"sass-brunch": "~1.8.6",
+	"node-sass": "1.0.3",
+	"bower": "~1.3.12"
+  }
+}
